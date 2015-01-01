@@ -20,7 +20,7 @@ SampleApp::Application.configure do
   # config.action_dispatch.rack_cache = true
 
   config.serve_static_assets = false
-
+  config.active_support.deprecation = :log
   # Compress JavaScripts and CSS.
   config.assets.js_compressor  = :uglifier
   # config.assets.css_compressor = :sass
